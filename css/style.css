@@ -77,6 +77,17 @@
 
 
 /* ================================================== */
+.bal {
+    display: block;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 30px;
+    border-bottom: #9ca4ac   double 1px;
+    margin-bottom: 30px;
+}
+
 
 html {
     overflow-x: hidden;
