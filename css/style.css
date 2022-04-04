@@ -87,6 +87,15 @@
     border-bottom: #9ca4ac   double 1px;
     margin-bottom: 30px;
 }
+.bale {
+    display: block;
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+  margin-bottom: 20px;
+   
+    
+}
 
 
 html {
