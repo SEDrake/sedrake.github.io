@@ -1170,7 +1170,7 @@
    * center-y
    * --------------------------------------------------*/
   function centerY() {
-    jQuery(".full-height").each(function () {
+    jQuery("").each(function () {
       var dh = jQuery(window).innerHeight();
       jQuery(this).css("height", dh);
     });
@@ -1404,11 +1404,11 @@
     // --------------------------------------------------
     var $doc_height = jQuery(window).innerHeight();
     jQuery("#homepage #content.content-overlay").css("margin-top", $doc_height);
-    //jQuery('.full-height').css("height", $doc_height);
+    //jQuery('').css("height", $doc_height);
     //var picheight = jQuery('.center-y').css("height");
     //picheight = parseInt(picheight, 10);
     //jQuery('.center-y').css('margin-top', (($doc_height - picheight) / 2)-100);
-    jQuery(".full-height .de-video-container").css("min-height", $doc_height);
+    jQuery(" .de-video-container").css("min-height", $doc_height);
 
     centerY();
     video_autosize();
